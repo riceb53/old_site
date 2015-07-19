@@ -1,0 +1,34 @@
+* {
+	background-color: #EEB422;
+	font-family: serif;
+}
+
+.center {
+	text-align: center;
+}
+
+div {
+	width: 30em;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+ 
+.resize {
+    width: 355px;
+    height: auto;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bottomtable {
+	margin-left: 150px;
+}
+
+.btt {
+	margin-left: 60px
+}
+
