@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <title>Hashes and Arrays</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+
+<main>
+  <h1>Hashes vs. Arrays</h1>
+  <h2>Both useful, depending on the situation</h2>
+  <h4>7/25/15</h4>
+
+  <section>
+    <p>
+Arrays are a way to store lots of information in Ruby. You can simply name an array and add as much information as you want into it. This information can be integers, strings, or even other arrays! The important thing to know about arrays is that order matters. Different parts of an array can be called by using it's position in the array, starting with 0. While order is important, each spot in the array does not have to be filled. You could have an array with an index of 0, 1, 3, and 6. Of course, 2, 4 and 5 are missing. If you were to call 2, 4 or 5 the program would return nil. Negative indexes are also possible. Rather than having negative indexes be before the first index, negative indexes are relative to the last element in an array. -1 corresponds with the final element in an array, -2 with the second to last, etc. This could be helpful if you do not know how many elements are in your array or if your array is really long. You wouldn't want to find the positive index number if you are dealing with a dataset that has thousands of elements in it. 
+    </p>
+    <p>
+        Hashes are similar to arrays in that they can both store tons of information. In a way, hashes store even more information than arrays. While Arrays are sorted by a ranked index number, hashes are not really sorted at all. They are just two pieces of information that math. This is why they "kind of" store more information than arrays, you can input two words into a hash rather than just a word and a number. Just to be clear though, hashes can include integers as well and can take all of the elements that an array can. 
+    </p>
+    <p>
+        To give an example: arrays are like rankings in College Basketball. Not exactly like rankings because the index starts at 0 rather than 1. So we'll say it's like naming how many schools are ranked above a given team. The index number would be the teams that outrank you (i.e. if you are ranked 5th, 4 teams outrank you). With 25 teams ranked by the AP poll, one could type in a number (0-24) and be returned with the team from that index. Again, the two parts being linked are the ranking of the team and the team name.
+    </p>
+    <p>
+      Hashes would operate a bit differently. Hashes would be useful with the information from the roster of a basketball team. One part would be the player's name and the other would be his hometown. If you called a player's name, you would be returned with the hometown of that player. In hashes, there aren't rankings like in arrays. You simply call what you want and are returned with the matching information.
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
