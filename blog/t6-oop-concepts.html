@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <title>Variable Scope</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+</head>
+
+<main>
+  <h1>Variable Scope</h1>
+  <h2></h2>
+  <h4>8/16/15</h4>
+
+  <section>
+    <p>
+      Variables, like everything else in Ruby, are objects. However, many different variables can be created in Ruby. They are useful in different contexts and have different attributes. 
+    </p>
+    <p>
+        In Ruby, scope simply means "where can I access this variable" The type (and therefore scope) of a variable can often be determined by its sigil. A sigil is a sort of coefficient for the variable. Some examples of sigils are "$", "@" and "@@". 
+    </p>
+    <p>
+      Local variables will be the most familiar for beginners. Local variables can only be accessed locally (no kidding). This means that variables defined in a method can only be used within that method. Every beginner has found this out the hard way when they try to call a variable they created and are told "undefined local variable". Local variables are useful because they allow you to use multiple variables with the same name and have them not interfere with each other.
+    </p>
+
+      <p>
+        Global variables are nearly the opposite of local variables. They begin with a "$" and have a global scope. While this seems great, global variables should be used with caution. When a global variable is created, it can be accessed anywhere, and can be affected by any line of code. Local variables are easier to manage because they only exist in a small area. The exception to this is pre-loaded global variables. These can be used in special cases like finding the correct path for the require method.
+      </p>
+
+      <p>
+        Instance variables begin with the "@" symbol and are used within a class. These variables are global within a particular instance of that class but do not exist outside it. They are helpful in referring to the same object throughout the class and don't have the problems associated with global variables. Class variables are similar to instance variables, but they begin with "@@" and are accessible in every instance of a particular class.
+      </p>
+
+      <p>
+        Constants are one more type of variable. They will begin with a capital letter. In theory, they do not change value, but in practice one can change the value. However, when changing the value of a constant, a warning will be issued.
+
+      </p>
+      
+  </section>
+</main>
+
