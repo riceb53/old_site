@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <title>Enumerables: group_by</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="post.css">
+</head>
+
+<main>
+  <h1>Group_by</h1>
+  <h2>How to use this enumerable</h2>
+  <h4>8/1/15</h4>
+
+<div>
+  <section>
+    <p>
+      Enumerables are a powerful part of Ruby. They help sort through large amounts of data and can execute a variety of specific functions that are useful when one has lots of data. Before I knew about enumberables, I was writing really long pieces of code with many loops and if/else statements. After looking through the <a href="http://ruby-doc.org/core-2.2.2/Enumerable.html"> Ruby Docs</a> I would find a specific enumerable that would do exactly what I needed on only one line.
+    </p>
+    <p>
+        The enumerable group_by is one such case.On the SAT, there are questions such as "Joey has x apples and x / 7 gives a remainder of two. Robert has twice as many apples as Joey. What could be the number of apples that Robert has?". To solve this type of problem group_by will be very useful.
+    </p>
+    <p>
+       As I mentioned above, we can get the relevant information code in only one line. From the array <b>answers<b> we would iterate through each answer. We choose a / 2 to get the answer in terms of the number of apples Joey has, then after using the modulo we would find the remainder of two. Whichever answer is put in the array with 2 will be the correct answer.
+       <img src="group_by example.png">
+    </p>
+
+     <p>
+      There are many other ways to use the group_by method. You can group by the first letter of a word, the number of characters in a string, or if a string contains a certain character. No matter what, you will put in an array (or something similar) and returned a hash. One part will be what you started with and the other part will be the group it has been placed in.
+       <img src="group_by other example.png"
+    </p>
+
+     <p>
+       The two most important things to know about enumerables is that they are powerful and specific. They are powerful in the sense that they can perform many operations with just a few lines of code. They are specific in that they can accomplish only one particular operation. So before you spend twenty minutes trying to get Ruby to group data (or something similar) make sure to spend 10 minutes on the <a href="http://ruby-doc.org/core-2.2.2/Enumerable.html"> Ruby Docs</a>. It might just be worth your while.
+    </p>
+</div>
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
